@@ -2,7 +2,6 @@
 // Outputs: O = Organic, I = Inorganic, E = Empty
 
 const $ = (id) => document.getElementById(id);
-
 const video = $("video");
 const overlay = $("overlay");
 const ctx = overlay.getContext("2d");
